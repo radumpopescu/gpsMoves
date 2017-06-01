@@ -1,0 +1,25 @@
+{
+  "name": "moves-gps",
+  "version": "0.0.1",
+  "description": "A try to use Moves data to set gps exif of photos",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/radumpopescu/gpsMoves",
+  "keywords": [
+    "Electron",
+    "gps",
+    "Moves",
+    "exif"
+  ],
+  "author": "Radu Popescu",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "piexifjs": "^1.0.3"
+  }
+}
